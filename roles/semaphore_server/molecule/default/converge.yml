@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "Include semaphore_server"
+      include_role:
+        name: "semaphore_server"
